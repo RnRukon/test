@@ -2,7 +2,7 @@ const express=require("express")
 const app=express()
 
 
-app.use( "/",async (req,res)=>{
+app.use( "/home",async (req,res)=>{
    try {
   await  res.status(200).json({
         fname:"rukon",
